@@ -5,8 +5,7 @@
   "main": "src/backend/main.js",
   "scripts": {
     "lint": "xo src",
-    "frontend": "watchify src/frontend/js/main.js -o build/main.js",
-    "backend": "nodemon"
+    "start": "nodemon"
   },
   "author": "Daniel Caaz",
   "license": "MIT",
